@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class PlayerFiring : MonoBehaviour
+public class PlayerShooting : MonoBehaviour
 {
     [SerializeField] GameObject projectiles;
     [SerializeField] Transform weapon;
     [SerializeField] AudioClip projectileSound;
-    private bool canFire = true;
 
+    private bool canFire = true;
+    
     void Start()
     {
       
@@ -16,8 +18,9 @@ public class PlayerFiring : MonoBehaviour
 
     private void Update()
     {
+        
 
-    if (Input.GetKeyDown(KeyCode.Space) && canFire == true)
+    if (Input.GetKeyDown(KeyCode.Space) && canFire == true && FindObjectOfType<PlayerHealth>().notDead == true)
         {
             Fire();
             canFire = false;
@@ -27,6 +30,11 @@ public class PlayerFiring : MonoBehaviour
         {
             canFire = true;
         }
+    }
+
+    public void Stop()
+    {
+        canFire = false;
     }
 
     public void Fire()

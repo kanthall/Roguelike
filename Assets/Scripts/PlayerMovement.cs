@@ -3,13 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     [Header("Player")]
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] float padding = 2f;
     [SerializeField] float additionPadding = 0.1f;
-    [SerializeField] int health = 100;
 
     [Header("Coordinates")]
     [SerializeField] float xMin;

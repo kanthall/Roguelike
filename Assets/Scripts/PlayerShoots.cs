@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bubbles_move: MonoBehaviour
+public class PlayerShoots: MonoBehaviour
 {
     float moveSpeed1 = 3f;
     float moveSpeed2 = 4f;
-    [SerializeField] float damage = 1f;
+    //[SerializeField] float damage = 1f;
 
     void Update()
     {

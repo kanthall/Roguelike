@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: af390abf30974d14aae191938299bb0c
+guid: a50e67ce1fc203140a56454785e1af16
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Mage
-    21300002: Dungeon_Character_2_1
-    21300004: Dungeon_Character_2_2
-    21300006: Dungeon_Character_2_3
-    21300008: Dungeon_Character_2_4
-    21300010: Dungeon_Character_2_5
-    21300012: Dungeon_Character_2_6
-    21300014: Blue_flame
-    21300016: Blue_flame_skull
-    21300018: Dungeon_Character_2_9
-    21300020: Vampire
-    21300022: Skeleton_sword
-    21300024: Skeleton_spear
-    21300026: Skeleton_scythe
+    21300000: Health_bar_0
+    21300002: Health_bar_1
+    21300004: Health_bar_2
+    21300006: Health_bar_3
+    21300008: Health_bar_4
+    21300010: Health_bar_5
+    21300012: Health_bar_6
+    21300014: Health_bar_7
+    21300016: Health_bar_8
+    21300018: Health_bar_9
+    21300020: Health_bar_10
+    21300022: Health_bar_11
+    21300024: Health_bar_12
+    21300026: Health_bar_13
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -59,7 +59,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -98,281 +98,281 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mage
+      name: Health_bar_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
+        x: 40
+        y: 66
+        width: 66
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5203fb3c5862af843a1ff284c79838c4
+      spriteID: af7d1025e111d0b4ab9455ee951769c0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_1
+      name: Health_bar_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 109
+        y: 66
+        width: 9
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8b153616f91c294188c0b70ab25c622
+      spriteID: 7284c7f59dc7c444d8575b608a163353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_2
+      name: Health_bar_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 119
+        y: 66
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07145e019a27ac94db5e52485fd09bca
+      spriteID: 5d5d4d882da1b7c439693961d3c89550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_3
+      name: Health_bar_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 124
+        y: 66
+        width: 9
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61630b5e70574224bba3c91a211692b1
+      spriteID: 84148f568b7bbdc42932d2398b5782f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_4
+      name: Health_bar_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
+        x: 40
+        y: 54
+        width: 66
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1b41cf0f5541724c8910e431ef44884
+      spriteID: 62dff02abcf57bb4b9b092c464d812d8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_5
+      name: Health_bar_5
       rect:
         serializedVersion: 2
-        x: 80
-        y: 16
-        width: 16
-        height: 16
+        x: 109
+        y: 54
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7d4bbed4275c5a4893ae35247db8f84
+      spriteID: fd06bae36124b9f49b5c4515ba1f6e48
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_6
+      name: Health_bar_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 16
-        width: 16
-        height: 16
+        x: 114
+        y: 46
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 952c3213433072540a22b4a9269bf9e0
+      spriteID: e92ae6b304e12144aae7efce41f9d7b6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue_flame
+      name: Health_bar_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 122
+        y: 54
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 173c3f48e9955fc479018873b7a9d498
+      spriteID: 2988d85550b6d0948a31ca180d08c624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue_flame_skull
+      name: Health_bar_8
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 128
+        y: 46
+        width: 6
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e613dec95e5d4042814085e21706d7a
+      spriteID: 9fc5632bd618d5144be0ea971bfcf92d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_9
+      name: Health_bar_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
+        x: 40
+        y: 46
+        width: 66
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67c383f793e448743898c6ba84ed37de
+      spriteID: 2b106dced565964419c18306119b8e44
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vampire
+      name: Health_bar_10
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
+        x: 109
+        y: 46
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 699f84ba4808e2345993b2014dbaa64a
+      spriteID: cf35c7a7ff69ac0469b1e702376a31e1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_sword
+      name: Health_bar_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
+        x: 119
+        y: 38
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa23c486a17551841aa903d6d17d7a0d
+      spriteID: 1072f8f6ae4492c4f912f29750c9e337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_spear
+      name: Health_bar_12
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 16
+        x: 40
+        y: 38
+        width: 66
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b9a090a970acc5419c13800c20b9210
+      spriteID: 239ae2340638d8245abd5971898aaa06
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_scythe
+      name: Health_bar_13
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 16
+        x: 109
+        y: 38
+        width: 9
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b2c8aa041c5ffa469b2a2f8c0e4b8aa
+      spriteID: 3e79b281f1f2b1448bf41ef5f881b2fd
       vertices: []
       indices: 
       edges: []
@@ -380,7 +380,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3bbffc48aab3ab44a81f82b47cf6f149
+    spriteID: 7fb4468982571674b8be0b35556666c6
     vertices: []
     indices: 
     edges: []
